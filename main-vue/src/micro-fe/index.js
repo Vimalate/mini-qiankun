@@ -9,9 +9,9 @@ export const registerMicroApps = (apps) => {
 };
 
 export const start = () => {
-    //微前端的运行原理: 2.匹配子应用 3.加载子应用 4.渲染子应用
+    //微前端的运行原理:
 
-    // 1.监视路由变化
+    // 1.监视路由变化 2.匹配子应用 3.加载子应用 4.渲染子应用
     // hash 路由: window.onhashchange
 
     // history 路由

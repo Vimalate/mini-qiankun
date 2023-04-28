@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="test">
     sub-app 我是第二个
   </div>
 </template>
@@ -10,4 +10,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.test {
+  background-color: antiquewhite;
+  height: 200px;
+  line-height: 200px;
+}
+</style>
